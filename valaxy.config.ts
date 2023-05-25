@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: '半夏和雅雅',
       cloud: {
         enable: true,
       },
@@ -31,7 +31,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
-        name: '喜欢的女孩子',
+        name: '喜欢的',
         url: '/girls/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
@@ -42,7 +42,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2016,
       beian: {
         enable: true,
-        icp: '苏ICP备17038157号',
+        icp: '未备案',
       },
     },
   },
