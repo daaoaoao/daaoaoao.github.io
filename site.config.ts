@@ -3,11 +3,11 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '半夏和雅雅的小站',
   author: {
-    name: '云游君',
+    name: 'DaAo',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: 'To Be OneSelf.',
   social: [
     {
       name: 'RSS',
@@ -16,14 +16,14 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
+      name: 'QQ',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/daaoaoao',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
@@ -95,7 +95,7 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
+    title: '网络乞丐',
     methods: [
       {
         name: '支付宝',
@@ -116,5 +116,20 @@ export default defineSiteConfig({
         icon: 'i-ri-wechat-pay-line',
       },
     ],
+  },
+   /**
+   * 开启阅读统计
+   */
+   statistics: {
+    enable: true,
+    readTime: {
+      /**
+       * 阅读速度
+       */
+      speed: {
+        cn: 300,
+        en: 200,
+      },
+    },
   },
 })
