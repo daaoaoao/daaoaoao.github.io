@@ -7,7 +7,6 @@ on:
       # 项目源代码所在的分支
       - main
       - master
-      - valaxy
 
 jobs:
   build:
@@ -37,6 +36,6 @@ jobs:
       - name: 🪤 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ALL }}
           publish_dir: ./dist
           force_orphan: true
